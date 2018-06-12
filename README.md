@@ -5,8 +5,10 @@ This is the Git repo forked from the official Docker images for [grpc][].
 # Tags
 
 - `groovex/grpc:cxx` (`cxx-1.12`): Container to build cxx with gRPC 1.12.x
-- `groovex/grpc:python` (`python3`, `python-1.12`): Container to run python3 with gRPC 1.12.x
-- `groovex/grpc:python-onbuild` (`python3-onbuild`, `python-1.12-onbuild`): Container to run python3 with gRPC 1.12.x and custom requirements.txt
+- `groovex/grpc:python` (`python-1.12`): Container to run python 2.7 with gRPC 1.12.x
+- `groovex/grpc:python-onbuild` (`python-1.12-onbuild`): Container to run python 2.7 with gRPC 1.12.x and custom requirements.txt
+- `groovex/grpc:python3` (`python3-1.12`): Container to run python 3.6 with gRPC 1.12.x
+- `groovex/grpc:python3-onbuild` (`python3-1.12-onbuild`): Container to run python3.6 with gRPC 1.12.x and custom requirements.txt
 
 
 # What is gRPC ?
